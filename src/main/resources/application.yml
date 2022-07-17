@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: redisnaut
+redis: # https://micronaut-projects.github.io/micronaut-redis/latest/guide/configurationreference.html e https://micronaut-projects.github.io/micronaut-redis/latest/guide/
+  uri: redis://localhost
+  caches:
+    teste1:
+      expire-after-write: 1m
