@@ -36,6 +36,9 @@ dependencies {
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
+    //Criptografia
+    implementation("org.bouncycastle:bcprov-jdk15on:1.70")
+
 }
 
 
